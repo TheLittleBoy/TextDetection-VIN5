@@ -27,7 +27,7 @@ libpaddle_api_light_bundled.a 放在PaddleLite/lib目录下，大小45M，下载
 1. `lib` : 存放编译好的预测库
 
 **备注：**
-  如需更新预测库，例如更新 iOS v8 预测库 ，则将新的预测库更新到 `ppocr_demo/lib` 目录
+  如需更新预测库，例如更新 iOS v8 预测库 ，则将新的预测库更新到 `lib` 目录
 
 2. `assets` : 存放 OCR demo 的模型、测试图片、标签文件及 config 文件
 
