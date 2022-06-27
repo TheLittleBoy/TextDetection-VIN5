@@ -16,6 +16,8 @@ libpaddle_api_light_bundled.a 放在PaddleLite/lib目录下，大小45M，下载
 
 请耐心下载！
 
+此项目打包之后大小仅为4M ！
+
 效果图：
 
 ![](https://github.com/TheLittleBoy/TextDetection-VIN5/blob/main/1.jpg)
