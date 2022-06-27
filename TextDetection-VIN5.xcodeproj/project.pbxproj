@@ -13,9 +13,33 @@
 		04B83FB02869451E0067705C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B83FAF2869451E0067705C /* Assets.xcassets */; };
 		04B83FB32869451E0067705C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B83FB12869451E0067705C /* LaunchScreen.storyboard */; };
 		04B83FB62869451E0067705C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B83FB52869451E0067705C /* main.m */; };
+		04CEF625286948F200D8EAC5 /* libpaddle_api_light_bundled.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEF624286948F200D8EAC5 /* libpaddle_api_light_bundled.a */; };
+		04CEF6272869492800D8EAC5 /* scanSuccess.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF6262869492800D8EAC5 /* scanSuccess.wav */; };
+		04CEF6292869499F00D8EAC5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEF6282869499F00D8EAC5 /* opencv2.framework */; };
+		04CEF63628694A0700D8EAC5 /* config.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF62B28694A0700D8EAC5 /* config.txt */; };
+		04CEF63928694A0700D8EAC5 /* ppocr_keys_v1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF63028694A0700D8EAC5 /* ppocr_keys_v1.txt */; };
+		04CEF63A28694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_det_slim_opt.nb in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF63228694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_det_slim_opt.nb */; };
+		04CEF63B28694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_cls_slim_opt.nb in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF63328694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_cls_slim_opt.nb */; };
+		04CEF63C28694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_rec_slim_opt.nb in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF63428694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_rec_slim_opt.nb */; };
+		04CEF63D28694A0700D8EAC5 /* download.sh in Resources */ = {isa = PBXBuildFile; fileRef = 04CEF63528694A0700D8EAC5 /* download.sh */; };
+		04CEF65028694A7B00D8EAC5 /* clipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF63F28694A7A00D8EAC5 /* clipper.cpp */; };
+		04CEF65128694A7B00D8EAC5 /* pipeline.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64328694A7A00D8EAC5 /* pipeline.cc */; };
+		04CEF65228694A7B00D8EAC5 /* cls_process.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64428694A7A00D8EAC5 /* cls_process.cc */; };
+		04CEF65328694A7B00D8EAC5 /* det_process.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64628694A7A00D8EAC5 /* det_process.cc */; };
+		04CEF65428694A7B00D8EAC5 /* db_post_process.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64A28694A7A00D8EAC5 /* db_post_process.cc */; };
+		04CEF65528694A7B00D8EAC5 /* rec_process.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64B28694A7B00D8EAC5 /* rec_process.cc */; };
+		04CEF65628694A7B00D8EAC5 /* clipper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64C28694A7B00D8EAC5 /* clipper.mm */; };
+		04CEF65728694A7B00D8EAC5 /* utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF64D28694A7B00D8EAC5 /* utils.cc */; };
+		04CEF65A28694C5A00D8EAC5 /* VINDetectionViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04CEF65928694C5A00D8EAC5 /* VINDetectionViewController.mm */; };
+		04CEF65D28694FA100D8EAC5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEF65C28694FA100D8EAC5 /* AVFoundation.framework */; };
+		04CEF65F28694FF400D8EAC5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEF65E28694FF400D8EAC5 /* CoreMedia.framework */; };
+		04CEF6612869503600D8EAC5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEF6602869503600D8EAC5 /* AssetsLibrary.framework */; };
+		04CEF663286950C300D8EAC5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEF662286950C300D8EAC5 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0479298628695546009C00F9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		0479298728695546009C00F9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		04B83FA02869451B0067705C /* TextDetection-VIN5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextDetection-VIN5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B83FA32869451B0067705C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04B83FA42869451B0067705C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +50,45 @@
 		04B83FB22869451E0067705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B83FB42869451E0067705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B83FB52869451E0067705C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CEF61C286948F200D8EAC5 /* paddle_lite_factory_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_lite_factory_helper.h; sourceTree = "<group>"; };
+		04CEF61D286948F200D8EAC5 /* paddle_use_ops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_use_ops.h; sourceTree = "<group>"; };
+		04CEF61E286948F200D8EAC5 /* paddle_use_kernels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_use_kernels.h; sourceTree = "<group>"; };
+		04CEF61F286948F200D8EAC5 /* paddle_use_passes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_use_passes.h; sourceTree = "<group>"; };
+		04CEF620286948F200D8EAC5 /* paddle_image_preprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_image_preprocess.h; sourceTree = "<group>"; };
+		04CEF621286948F200D8EAC5 /* paddle_place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_place.h; sourceTree = "<group>"; };
+		04CEF622286948F200D8EAC5 /* paddle_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paddle_api.h; sourceTree = "<group>"; };
+		04CEF624286948F200D8EAC5 /* libpaddle_api_light_bundled.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpaddle_api_light_bundled.a; sourceTree = "<group>"; };
+		04CEF6262869492800D8EAC5 /* scanSuccess.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scanSuccess.wav; sourceTree = "<group>"; };
+		04CEF6282869499F00D8EAC5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		04CEF62B28694A0700D8EAC5 /* config.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.txt; sourceTree = "<group>"; };
+		04CEF63028694A0700D8EAC5 /* ppocr_keys_v1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ppocr_keys_v1.txt; sourceTree = "<group>"; };
+		04CEF63228694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_det_slim_opt.nb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ch_ppocr_mobile_v2.0_det_slim_opt.nb; sourceTree = "<group>"; };
+		04CEF63328694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_cls_slim_opt.nb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ch_ppocr_mobile_v2.0_cls_slim_opt.nb; sourceTree = "<group>"; };
+		04CEF63428694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_rec_slim_opt.nb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ch_ppocr_mobile_v2.0_rec_slim_opt.nb; sourceTree = "<group>"; };
+		04CEF63528694A0700D8EAC5 /* download.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = download.sh; sourceTree = "<group>"; };
+		04CEF63F28694A7A00D8EAC5 /* clipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clipper.cpp; sourceTree = "<group>"; };
+		04CEF64028694A7A00D8EAC5 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		04CEF64128694A7A00D8EAC5 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		04CEF64228694A7A00D8EAC5 /* db_post_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = db_post_process.h; sourceTree = "<group>"; };
+		04CEF64328694A7A00D8EAC5 /* pipeline.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pipeline.cc; sourceTree = "<group>"; };
+		04CEF64428694A7A00D8EAC5 /* cls_process.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cls_process.cc; sourceTree = "<group>"; };
+		04CEF64528694A7A00D8EAC5 /* pipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pipeline.h; sourceTree = "<group>"; };
+		04CEF64628694A7A00D8EAC5 /* det_process.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = det_process.cc; sourceTree = "<group>"; };
+		04CEF64728694A7A00D8EAC5 /* det_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = det_process.h; sourceTree = "<group>"; };
+		04CEF64828694A7A00D8EAC5 /* cls_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_process.h; sourceTree = "<group>"; };
+		04CEF64928694A7A00D8EAC5 /* clipper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = clipper.hpp; sourceTree = "<group>"; };
+		04CEF64A28694A7A00D8EAC5 /* db_post_process.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = db_post_process.cc; sourceTree = "<group>"; };
+		04CEF64B28694A7B00D8EAC5 /* rec_process.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rec_process.cc; sourceTree = "<group>"; };
+		04CEF64C28694A7B00D8EAC5 /* clipper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = clipper.mm; sourceTree = "<group>"; };
+		04CEF64D28694A7B00D8EAC5 /* utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cc; sourceTree = "<group>"; };
+		04CEF64E28694A7B00D8EAC5 /* clipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clipper.h; sourceTree = "<group>"; };
+		04CEF64F28694A7B00D8EAC5 /* rec_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rec_process.h; sourceTree = "<group>"; };
+		04CEF65828694C5A00D8EAC5 /* VINDetectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VINDetectionViewController.h; sourceTree = "<group>"; };
+		04CEF65928694C5A00D8EAC5 /* VINDetectionViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VINDetectionViewController.mm; sourceTree = "<group>"; };
+		04CEF65C28694FA100D8EAC5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04CEF65E28694FF400D8EAC5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		04CEF6602869503600D8EAC5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		04CEF662286950C300D8EAC5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEF65F28694FF400D8EAC5 /* CoreMedia.framework in Frameworks */,
+				04CEF6292869499F00D8EAC5 /* opencv2.framework in Frameworks */,
+				04CEF625286948F200D8EAC5 /* libpaddle_api_light_bundled.a in Frameworks */,
+				04CEF65D28694FA100D8EAC5 /* AVFoundation.framework in Frameworks */,
+				04CEF6612869503600D8EAC5 /* AssetsLibrary.framework in Frameworks */,
+				04CEF663286950C300D8EAC5 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +113,7 @@
 			children = (
 				04B83FA22869451B0067705C /* TextDetection-VIN5 */,
 				04B83FA12869451B0067705C /* Products */,
+				04CEF65B28694FA000D8EAC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +128,13 @@
 		04B83FA22869451B0067705C /* TextDetection-VIN5 */ = {
 			isa = PBXGroup;
 			children = (
+				04CEF61A286948F200D8EAC5 /* PaddleLite */,
 				04B83FA32869451B0067705C /* AppDelegate.h */,
 				04B83FA42869451B0067705C /* AppDelegate.m */,
 				04B83FA92869451B0067705C /* ViewController.h */,
 				04B83FAA2869451B0067705C /* ViewController.m */,
+				04CEF65828694C5A00D8EAC5 /* VINDetectionViewController.h */,
+				04CEF65928694C5A00D8EAC5 /* VINDetectionViewController.mm */,
 				04B83FAC2869451B0067705C /* Main.storyboard */,
 				04B83FAF2869451E0067705C /* Assets.xcassets */,
 				04B83FB12869451E0067705C /* LaunchScreen.storyboard */,
@@ -69,6 +142,105 @@
 				04B83FB52869451E0067705C /* main.m */,
 			);
 			path = "TextDetection-VIN5";
+			sourceTree = "<group>";
+		};
+		04CEF61A286948F200D8EAC5 /* PaddleLite */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF63E28694A5100D8EAC5 /* source */,
+				04CEF6262869492800D8EAC5 /* scanSuccess.wav */,
+				04CEF6282869499F00D8EAC5 /* opencv2.framework */,
+				04CEF61B286948F200D8EAC5 /* include */,
+				04CEF623286948F200D8EAC5 /* lib */,
+				04CEF62A28694A0700D8EAC5 /* assets */,
+			);
+			path = PaddleLite;
+			sourceTree = "<group>";
+		};
+		04CEF61B286948F200D8EAC5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF622286948F200D8EAC5 /* paddle_api.h */,
+				04CEF620286948F200D8EAC5 /* paddle_image_preprocess.h */,
+				04CEF61C286948F200D8EAC5 /* paddle_lite_factory_helper.h */,
+				04CEF621286948F200D8EAC5 /* paddle_place.h */,
+				04CEF61E286948F200D8EAC5 /* paddle_use_kernels.h */,
+				04CEF61D286948F200D8EAC5 /* paddle_use_ops.h */,
+				04CEF61F286948F200D8EAC5 /* paddle_use_passes.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		04CEF623286948F200D8EAC5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF624286948F200D8EAC5 /* libpaddle_api_light_bundled.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		04CEF62A28694A0700D8EAC5 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF62B28694A0700D8EAC5 /* config.txt */,
+				04CEF62F28694A0700D8EAC5 /* labels */,
+				04CEF63128694A0700D8EAC5 /* models */,
+				04CEF63528694A0700D8EAC5 /* download.sh */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		04CEF62F28694A0700D8EAC5 /* labels */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF63028694A0700D8EAC5 /* ppocr_keys_v1.txt */,
+			);
+			path = labels;
+			sourceTree = "<group>";
+		};
+		04CEF63128694A0700D8EAC5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF63228694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_det_slim_opt.nb */,
+				04CEF63328694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_cls_slim_opt.nb */,
+				04CEF63428694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_rec_slim_opt.nb */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		04CEF63E28694A5100D8EAC5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF64E28694A7B00D8EAC5 /* clipper.h */,
+				04CEF63F28694A7A00D8EAC5 /* clipper.cpp */,
+				04CEF64928694A7A00D8EAC5 /* clipper.hpp */,
+				04CEF64C28694A7B00D8EAC5 /* clipper.mm */,
+				04CEF64828694A7A00D8EAC5 /* cls_process.h */,
+				04CEF64428694A7A00D8EAC5 /* cls_process.cc */,
+				04CEF64228694A7A00D8EAC5 /* db_post_process.h */,
+				04CEF64A28694A7A00D8EAC5 /* db_post_process.cc */,
+				04CEF64728694A7A00D8EAC5 /* det_process.h */,
+				04CEF64628694A7A00D8EAC5 /* det_process.cc */,
+				04CEF64528694A7A00D8EAC5 /* pipeline.h */,
+				04CEF64328694A7A00D8EAC5 /* pipeline.cc */,
+				04CEF64F28694A7B00D8EAC5 /* rec_process.h */,
+				04CEF64B28694A7B00D8EAC5 /* rec_process.cc */,
+				04CEF64128694A7A00D8EAC5 /* timer.h */,
+				04CEF64028694A7A00D8EAC5 /* utils.h */,
+				04CEF64D28694A7B00D8EAC5 /* utils.cc */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		04CEF65B28694FA000D8EAC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CEF662286950C300D8EAC5 /* AudioToolbox.framework */,
+				04CEF6602869503600D8EAC5 /* AssetsLibrary.framework */,
+				04CEF65E28694FF400D8EAC5 /* CoreMedia.framework */,
+				04CEF65C28694FA100D8EAC5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +284,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 04B83F972869451B0067705C;
 			productRefGroup = 04B83FA12869451B0067705C /* Products */;
@@ -129,8 +302,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B83FB32869451E0067705C /* LaunchScreen.storyboard in Resources */,
+				04CEF63B28694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_cls_slim_opt.nb in Resources */,
+				04CEF6272869492800D8EAC5 /* scanSuccess.wav in Resources */,
+				04CEF63D28694A0700D8EAC5 /* download.sh in Resources */,
+				04CEF63928694A0700D8EAC5 /* ppocr_keys_v1.txt in Resources */,
 				04B83FB02869451E0067705C /* Assets.xcassets in Resources */,
 				04B83FAE2869451B0067705C /* Main.storyboard in Resources */,
+				04CEF63C28694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_rec_slim_opt.nb in Resources */,
+				04CEF63628694A0700D8EAC5 /* config.txt in Resources */,
+				04CEF63A28694A0700D8EAC5 /* ch_ppocr_mobile_v2.0_det_slim_opt.nb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CEF65228694A7B00D8EAC5 /* cls_process.cc in Sources */,
+				04CEF65328694A7B00D8EAC5 /* det_process.cc in Sources */,
+				04CEF65728694A7B00D8EAC5 /* utils.cc in Sources */,
 				04B83FAB2869451B0067705C /* ViewController.m in Sources */,
 				04B83FA52869451B0067705C /* AppDelegate.m in Sources */,
+				04CEF65528694A7B00D8EAC5 /* rec_process.cc in Sources */,
 				04B83FB62869451E0067705C /* main.m in Sources */,
+				04CEF65128694A7B00D8EAC5 /* pipeline.cc in Sources */,
+				04CEF65028694A7B00D8EAC5 /* clipper.cpp in Sources */,
+				04CEF65428694A7B00D8EAC5 /* db_post_process.cc in Sources */,
+				04CEF65A28694C5A00D8EAC5 /* VINDetectionViewController.mm in Sources */,
+				04CEF65628694A7B00D8EAC5 /* clipper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +343,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04B83FAD2869451B0067705C /* Base */,
+				0479298628695546009C00F9 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -162,6 +352,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04B83FB22869451E0067705C /* Base */,
+				0479298728695546009C00F9 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -219,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -231,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -271,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,18 +481,27 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CX9724CS5M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TextDetection-VIN5/PaddleLite",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TextDetection-VIN5/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "请求访问相机";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TextDetection-VIN5/PaddleLite/lib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edu-edu.TextDetection-VIN5";
@@ -319,18 +521,27 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CX9724CS5M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TextDetection-VIN5/PaddleLite",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TextDetection-VIN5/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "请求访问相机";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TextDetection-VIN5/PaddleLite/lib",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.edu-edu.TextDetection-VIN5";
