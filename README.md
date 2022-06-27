@@ -2,6 +2,17 @@
 
 iOS使用飞桨OCR文字识别，实现离线扫描VIN码，免费，并且效果极佳，速度贼快。
 
+飞桨官网：https://www.paddlepaddle.org.cn
+
+官网OCR demo：https://ai.baidu.com/easyedge/app/openSource
+
+此项目需要自行下载较大的类库：
+
+opencv2.framework 放在PaddleLite目录下，大小501M，下载地址：https://paddlelite-demo.bj.bcebos.com/libs/ios/opencv-4.5.5-ios-framework.tar.gz
+
+libpaddle_api_light_bundled.a 放在PaddleLite/lib目录下，大小45M，下载地址：https://paddlelite-demo.bj.bcebos.com/libs/ios/paddle_lite_libs_v2_10_rc.tar.gz
+
+请耐心下载！
 
 效果图：
 
